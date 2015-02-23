@@ -1,0 +1,10 @@
+
+{%- for action in record_actions %}
+
+    	<a class="btn {% if action == "edit" %}btn-info{% else %}btn-default{% endif %} btn-xs" href="{{ "{{ path('"~ route_name_prefix ~"_"~ action ~"', { 'id': entity.id }) }}" }}">
+       	
+       		{{ "{{ 'views.actions."~action~"'|trans({}, 'ApplikacjonizmCrudGeneratorBundle') }}" }}
+        
+        </a>
+
+{%- endfor %}

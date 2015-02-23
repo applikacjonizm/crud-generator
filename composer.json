@@ -28,7 +28,7 @@
     "target-dir": "Applikacjonizm/Bundle/CrudGeneratorBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.3.x-dev"
+            "dev-master": "2.6.x-dev"
         }
     }
 }
